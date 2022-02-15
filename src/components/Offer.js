@@ -18,15 +18,14 @@ function Offer() {
           <h3>Czym zajmuje się nasza firma?</h3>
         </div>
         <div className="container boxpadding center">
-          <div class="box ">
-            <Box value={listItems[0]} />
-          </div>
-          <div class="box boxcenter">
-            <Box value={listItems[1]} />
-          </div>
-          <div class="box ">
-            <Box value={listItems[2]} />
-          </div>
+          <Box value={listItems[0]} />
+          <Box value={listItems[1]} />
+          <Box value={listItems[2]} />
+        </div>
+        <div className="container boxpadding center">
+          <Box value={listItems[3]} />
+          <Box value={listItems[4]} />
+          <Box value={listItems[5]} />
         </div>
       </div>
     </div>
