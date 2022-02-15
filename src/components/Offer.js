@@ -1,35 +1,31 @@
+import React from "react";
+import Box from "./Box";
+
 function Offer() {
+  const offers = [
+    "Usługa 1",
+    "Usługa 2",
+    "Usługa 3",
+    "Usługa 4",
+    "Usługa 5",
+    "Usługa 6",
+  ];
+  const listItems = offers.map((offers) => <>{offers}</>);
   return (
-    <div className="mainpadding offer">
+    <div className="offer mainpadding">
       <div className="main">
         <div>
           <h3>Czym zajmuje się nasza firma?</h3>
         </div>
         <div className="container boxpadding center">
-          <div className="box">
-            <div className="orangeball"></div>
-            <p>
-              Usługa 1<br />
-              <span className="new">(nowość)</span>
-            </p>
+          <div class="box ">
+            <Box value={listItems[0]} />
           </div>
-          <div className="box boxcenter">
-            <p>Usługa 2</p>
+          <div class="box boxcenter">
+            <Box value={listItems[1]} />
           </div>
-          <div className="box">
-            <p>Usługa 3</p>
-          </div>
-        </div>
-
-        <div className="container center">
-          <div className="box">
-            <p>Usługa 4</p>
-          </div>
-          <div className="box boxcenter">
-            <p>Usługa 5</p>
-          </div>
-          <div className="box">
-            <p>Usługa 6</p>
+          <div class="box ">
+            <Box value={listItems[2]} />
           </div>
         </div>
       </div>
