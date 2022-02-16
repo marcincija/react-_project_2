@@ -1,8 +1,9 @@
 import man from "../img/man.jpg";
 import woman from "../img/woman.jpg";
+
 function Specialist() {
   return (
-    <div className="mainpadding aboutus">
+    <div className="mainpadding aboutus" id="aboutus">
       <div className="main">
         <div>
           <h2>Nasi specjaliści</h2>

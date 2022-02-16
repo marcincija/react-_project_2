@@ -12,13 +12,13 @@ function Offer() {
   ];
   const listItems = offers.map((offers) => <>{offers}</>);
   return (
-    <div className="offer mainpadding">
+    <div className="offer mainpadding" id="offer">
       <div className="main">
         <div>
           <h3>Czym zajmuje się nasza firma?</h3>
         </div>
         <div className="container boxpadding center">
-          <Box value={listItems[0]} />
+          <Box value={listItems[0]} isNew={true} />
           <Box value={listItems[1]} />
           <Box value={listItems[2]} />
         </div>

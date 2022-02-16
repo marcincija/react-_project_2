@@ -1,9 +1,14 @@
 import React from "react";
+import Orangeball from "./Orangeball";
+
 function Box(props) {
   return (
-    <div className="box">
-      <p>{props.value}</p>
-    </div>
+    <>
+      <div className="box">
+        {props.isNew ? <Orangeball /> : <></>}
+        <p>{props.value}</p>
+      </div>
+    </>
   );
 }
 
