@@ -1,4 +1,4 @@
-function Slider() {
+function Footer() {
   return (
     <div className="main_footer">
       <div className="main">
@@ -16,4 +16,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default Footer;
