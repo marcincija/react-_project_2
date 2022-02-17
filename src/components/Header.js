@@ -1,11 +1,4 @@
 function Header() {
-  (function () {
-    const aboutus = document.getElementById("aboutus");
-    const offer = document.getElementById("offer");
-    aboutus.scrollIntoView({ behavior: "smooth" });
-    offer.scrollIntoView({ behavior: "smooth" });
-  })();
-
   return (
     <nav id="navbar" className="fullwidth">
       <div className="main">
