@@ -234,6 +234,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .aboutus img {
@@ -277,7 +278,8 @@ body {
 
 .box {
   display: flex;
-  width: 198px;
+
+  flex-basis: 198px;
   height: 198px;
   background: #f1f1f1;
   align-items: center;
@@ -286,6 +288,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 63px;
 }
 
 .box:hover {
